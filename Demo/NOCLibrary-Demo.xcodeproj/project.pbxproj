@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DCE71303E47A500487C7878 /* Pods_NOCLibrary_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E2321BF619E6633091C9EC /* Pods_NOCLibrary_Demo.framework */; };
+		B765BB995A44F7A4CCB30E41 /* Pods_NOCLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC645F096982F8D832DBA /* Pods_NOCLibrary_Tests.framework */; };
+		D4A5DDFF10F4B66834473F62 /* Pods_NOCLibraryFramework_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6794CAA588B404C3EBC31DCF /* Pods_NOCLibraryFramework_Demo.framework */; };
+		E8A6477D207B256F007CEF17 /* NSBundle_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A6477C207B256F007CEF17 /* NSBundle_Tests.m */; };
+		E8BE1B4E207B48E400E52F89 /* UIColor_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE1B4D207B48E400E52F89 /* UIColor_Tests.m */; };
+		E8BE1B50207B577A00E52F89 /* NSURL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE1B4F207B577A00E52F89 /* NSURL_Tests.m */; };
+		E8BE1B78207B711000E52F89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE1B77207B711000E52F89 /* AppDelegate.m */; };
+		E8BE1B7B207B711000E52F89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE1B7A207B711000E52F89 /* ViewController.m */; };
+		E8BE1B7E207B711000E52F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BE1B7C207B711000E52F89 /* Main.storyboard */; };
+		E8BE1B80207B711200E52F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BE1B7F207B711200E52F89 /* Assets.xcassets */; };
+		E8BE1B83207B711200E52F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BE1B81207B711200E52F89 /* LaunchScreen.storyboard */; };
+		E8BE1B86207B711200E52F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE1B85207B711200E52F89 /* main.m */; };
+		E8BE1B9B207B730500E52F89 /* NOCLibraryFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BE1B96207B72E200E52F89 /* NOCLibraryFramework.framework */; };
+		E8BE1B9C207B730500E52F89 /* NOCLibraryFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E8BE1B96207B72E200E52F89 /* NOCLibraryFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8F0DE142075E83F002C398D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0DE132075E83F002C398D /* AppDelegate.m */; };
+		E8F0DE172075E83F002C398D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0DE162075E83F002C398D /* ViewController.m */; };
+		E8F0DE1A2075E83F002C398D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0DE182075E83F002C398D /* Main.storyboard */; };
+		E8F0DE1C2075E840002C398D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F0DE1B2075E840002C398D /* Assets.xcassets */; };
+		E8F0DE1F2075E840002C398D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0DE1D2075E840002C398D /* LaunchScreen.storyboard */; };
+		E8F0DE222075E840002C398D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0DE212075E840002C398D /* main.m */; };
+		E8F0DE2B2075F926002C398D /* NOCLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0DE2A2075F926002C398D /* NOCLibrary.m */; };
+		E8F0DE332075FBAF002C398D /* NSDictionary_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0DE322075FBAF002C398D /* NSDictionary_Tests.m */; };
+		E8F0DE3820760AF0002C398D /* NOCLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0DE2A2075F926002C398D /* NOCLibrary.m */; };
+		E8F0DE3D20762572002C398D /* NSString_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0DE3C20762572002C398D /* NSString_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8BE1B9D207B730600E52F89 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E8BE1B9C207B730500E52F89 /* NOCLibraryFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DF9FAE7E97EB7226EE3E62F /* Pods-NOCLibrary-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOCLibrary-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NOCLibrary-Tests/Pods-NOCLibrary-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		41434EE02105025A81690920 /* Pods-NOCLibraryFramework-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOCLibraryFramework-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NOCLibraryFramework-Demo/Pods-NOCLibraryFramework-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		53FB252BF215DD076A545792 /* Pods-NOCLibrary-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOCLibrary-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NOCLibrary-Demo/Pods-NOCLibrary-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		6794CAA588B404C3EBC31DCF /* Pods_NOCLibraryFramework_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOCLibraryFramework_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AF17E4AD2A1B67AF4F3392 /* Pods-NOCLibrary-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOCLibrary-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NOCLibrary-Demo/Pods-NOCLibrary-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		903DF4BC736220F9DECB0688 /* Pods-NOCLibrary-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOCLibrary-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NOCLibrary-Tests/Pods-NOCLibrary-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2DBC645F096982F8D832DBA /* Pods_NOCLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOCLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E2321BF619E6633091C9EC /* Pods_NOCLibrary_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOCLibrary_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A6477C207B256F007CEF17 /* NSBundle_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBundle_Tests.m; sourceTree = "<group>"; };
+		E8BE1B4D207B48E400E52F89 /* UIColor_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColor_Tests.m; sourceTree = "<group>"; };
+		E8BE1B4F207B577A00E52F89 /* NSURL_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURL_Tests.m; sourceTree = "<group>"; };
+		E8BE1B74207B711000E52F89 /* NOCLibraryFramework-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NOCLibraryFramework-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BE1B76207B711000E52F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8BE1B77207B711000E52F89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8BE1B79207B711000E52F89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8BE1B7A207B711000E52F89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8BE1B7D207B711000E52F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8BE1B7F207B711200E52F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8BE1B82207B711200E52F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8BE1B84207B711200E52F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BE1B85207B711200E52F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8BE1B96207B72E200E52F89 /* NOCLibraryFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NOCLibraryFramework.framework; sourceTree = "<group>"; };
+		E8F0DE0F2075E83F002C398D /* NOCLibrary-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NOCLibrary-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F0DE122075E83F002C398D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8F0DE132075E83F002C398D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8F0DE152075E83F002C398D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8F0DE162075E83F002C398D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8F0DE192075E83F002C398D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8F0DE1B2075E840002C398D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8F0DE1E2075E840002C398D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8F0DE202075E840002C398D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F0DE212075E840002C398D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8F0DE292075F926002C398D /* NOCLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOCLibrary.h; sourceTree = "<group>"; };
+		E8F0DE2A2075F926002C398D /* NOCLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NOCLibrary.m; sourceTree = "<group>"; };
+		E8F0DE302075FBAF002C398D /* NOCLibrary-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NOCLibrary-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F0DE322075FBAF002C398D /* NSDictionary_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_Tests.m; sourceTree = "<group>"; };
+		E8F0DE342075FBAF002C398D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F0DE3C20762572002C398D /* NSString_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSString_Tests.m; sourceTree = "<group>"; };
+		FDF026F0D85F448E721D5614 /* Pods-NOCLibraryFramework-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOCLibraryFramework-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NOCLibraryFramework-Demo/Pods-NOCLibraryFramework-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8BE1B71207B711000E52F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BE1B9B207B730500E52F89 /* NOCLibraryFramework.framework in Frameworks */,
+				D4A5DDFF10F4B66834473F62 /* Pods_NOCLibraryFramework_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0DE0C2075E83F002C398D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCE71303E47A500487C7878 /* Pods_NOCLibrary_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0DE2D2075FBAF002C398D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B765BB995A44F7A4CCB30E41 /* Pods_NOCLibrary_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F7AF5B787DF18363E4779A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53FB252BF215DD076A545792 /* Pods-NOCLibrary-Demo.debug.xcconfig */,
+				76AF17E4AD2A1B67AF4F3392 /* Pods-NOCLibrary-Demo.release.xcconfig */,
+				903DF4BC736220F9DECB0688 /* Pods-NOCLibrary-Tests.debug.xcconfig */,
+				0DF9FAE7E97EB7226EE3E62F /* Pods-NOCLibrary-Tests.release.xcconfig */,
+				FDF026F0D85F448E721D5614 /* Pods-NOCLibraryFramework-Demo.debug.xcconfig */,
+				41434EE02105025A81690920 /* Pods-NOCLibraryFramework-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D81CAB82DA701F526980A3B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E2321BF619E6633091C9EC /* Pods_NOCLibrary_Demo.framework */,
+				C2DBC645F096982F8D832DBA /* Pods_NOCLibrary_Tests.framework */,
+				6794CAA588B404C3EBC31DCF /* Pods_NOCLibraryFramework_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8BE1B75207B711000E52F89 /* NOCLibraryFramework-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E8BE1B84207B711200E52F89 /* Info.plist */,
+				E8BE1B7F207B711200E52F89 /* Assets.xcassets */,
+				E8BE1B81207B711200E52F89 /* LaunchScreen.storyboard */,
+				E8BE1B7C207B711000E52F89 /* Main.storyboard */,
+				E8BE1B85207B711200E52F89 /* main.m */,
+				E8BE1B76207B711000E52F89 /* AppDelegate.h */,
+				E8BE1B77207B711000E52F89 /* AppDelegate.m */,
+				E8BE1B79207B711000E52F89 /* ViewController.h */,
+				E8BE1B7A207B711000E52F89 /* ViewController.m */,
+			);
+			path = "NOCLibraryFramework-Demo";
+			sourceTree = "<group>";
+		};
+		E8BE1B94207B72E200E52F89 /* UniversalFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E8BE1B96207B72E200E52F89 /* NOCLibraryFramework.framework */,
+			);
+			name = UniversalFramework;
+			path = ../UniversalFramework;
+			sourceTree = "<group>";
+		};
+		E8F0DE062075E83F002C398D = {
+			isa = PBXGroup;
+			children = (
+				E8F0DE112075E83F002C398D /* NOCLibrary-Demo */,
+				E8BE1B75207B711000E52F89 /* NOCLibraryFramework-Demo */,
+				E8F0DE282075F904002C398D /* NOCLibrary */,
+				E8F0DE312075FBAF002C398D /* NOCLibrary-Tests */,
+				E8F0DE102075E83F002C398D /* Products */,
+				28F7AF5B787DF18363E4779A /* Pods */,
+				E8BE1B94207B72E200E52F89 /* UniversalFramework */,
+				D81CAB82DA701F526980A3B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8F0DE102075E83F002C398D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0DE0F2075E83F002C398D /* NOCLibrary-Demo.app */,
+				E8F0DE302075FBAF002C398D /* NOCLibrary-Tests.xctest */,
+				E8BE1B74207B711000E52F89 /* NOCLibraryFramework-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F0DE112075E83F002C398D /* NOCLibrary-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0DE202075E840002C398D /* Info.plist */,
+				E8F0DE1B2075E840002C398D /* Assets.xcassets */,
+				E8F0DE1D2075E840002C398D /* LaunchScreen.storyboard */,
+				E8F0DE182075E83F002C398D /* Main.storyboard */,
+				E8F0DE212075E840002C398D /* main.m */,
+				E8F0DE122075E83F002C398D /* AppDelegate.h */,
+				E8F0DE132075E83F002C398D /* AppDelegate.m */,
+				E8F0DE152075E83F002C398D /* ViewController.h */,
+				E8F0DE162075E83F002C398D /* ViewController.m */,
+			);
+			path = "NOCLibrary-Demo";
+			sourceTree = "<group>";
+		};
+		E8F0DE282075F904002C398D /* NOCLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0DE292075F926002C398D /* NOCLibrary.h */,
+				E8F0DE2A2075F926002C398D /* NOCLibrary.m */,
+			);
+			name = NOCLibrary;
+			path = ../NOCLibrary;
+			sourceTree = "<group>";
+		};
+		E8F0DE312075FBAF002C398D /* NOCLibrary-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0DE342075FBAF002C398D /* Info.plist */,
+				E8A6477C207B256F007CEF17 /* NSBundle_Tests.m */,
+				E8F0DE322075FBAF002C398D /* NSDictionary_Tests.m */,
+				E8F0DE3C20762572002C398D /* NSString_Tests.m */,
+				E8BE1B4F207B577A00E52F89 /* NSURL_Tests.m */,
+				E8BE1B4D207B48E400E52F89 /* UIColor_Tests.m */,
+			);
+			path = "NOCLibrary-Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8BE1B73207B711000E52F89 /* NOCLibraryFramework-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8BE1B89207B711200E52F89 /* Build configuration list for PBXNativeTarget "NOCLibraryFramework-Demo" */;
+			buildPhases = (
+				76383DAEA288AAF8183000ED /* [CP] Check Pods Manifest.lock */,
+				E8BE1B70207B711000E52F89 /* Sources */,
+				E8BE1B71207B711000E52F89 /* Frameworks */,
+				E8BE1B72207B711000E52F89 /* Resources */,
+				E8BE1B9D207B730600E52F89 /* Embed Frameworks */,
+				D966ED830FAB5DB56956227A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NOCLibraryFramework-Demo";
+			productName = "NOCLibraryFramework-Demo";
+			productReference = E8BE1B74207B711000E52F89 /* NOCLibraryFramework-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8F0DE0E2075E83F002C398D /* NOCLibrary-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F0DE252075E840002C398D /* Build configuration list for PBXNativeTarget "NOCLibrary-Demo" */;
+			buildPhases = (
+				99CB1564315EE924CAE8FC7E /* [CP] Check Pods Manifest.lock */,
+				E8F0DE0B2075E83F002C398D /* Sources */,
+				E8F0DE0C2075E83F002C398D /* Frameworks */,
+				E8F0DE0D2075E83F002C398D /* Resources */,
+				DF34DE3934DF14A396404F11 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NOCLibrary-Demo";
+			productName = "NOCLibrary-Demo";
+			productReference = E8F0DE0F2075E83F002C398D /* NOCLibrary-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8F0DE2F2075FBAF002C398D /* NOCLibrary-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F0DE352075FBAF002C398D /* Build configuration list for PBXNativeTarget "NOCLibrary-Tests" */;
+			buildPhases = (
+				A8F01C750038F2A76886034B /* [CP] Check Pods Manifest.lock */,
+				E8F0DE2C2075FBAF002C398D /* Sources */,
+				E8F0DE2D2075FBAF002C398D /* Frameworks */,
+				E8F0DE2E2075FBAF002C398D /* Resources */,
+				9B24C683571767B1C262F256 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NOCLibrary-Tests";
+			productName = "NOCLibrary-Tests";
+			productReference = E8F0DE302075FBAF002C398D /* NOCLibrary-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8F0DE072075E83F002C398D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = NuliApp;
+				TargetAttributes = {
+					E8BE1B73207B711000E52F89 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E8F0DE0E2075E83F002C398D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E8F0DE2F2075FBAF002C398D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = E8F0DE0A2075E83F002C398D /* Build configuration list for PBXProject "NOCLibrary-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8F0DE062075E83F002C398D;
+			productRefGroup = E8F0DE102075E83F002C398D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8F0DE0E2075E83F002C398D /* NOCLibrary-Demo */,
+				E8BE1B73207B711000E52F89 /* NOCLibraryFramework-Demo */,
+				E8F0DE2F2075FBAF002C398D /* NOCLibrary-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8BE1B72207B711000E52F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BE1B83207B711200E52F89 /* LaunchScreen.storyboard in Resources */,
+				E8BE1B80207B711200E52F89 /* Assets.xcassets in Resources */,
+				E8BE1B7E207B711000E52F89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0DE0D2075E83F002C398D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0DE1C2075E840002C398D /* Assets.xcassets in Resources */,
+				E8F0DE1F2075E840002C398D /* LaunchScreen.storyboard in Resources */,
+				E8F0DE1A2075E83F002C398D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0DE2E2075FBAF002C398D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76383DAEA288AAF8183000ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NOCLibraryFramework-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99CB1564315EE924CAE8FC7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NOCLibrary-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B24C683571767B1C262F256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NOCLibrary-Tests/Pods-NOCLibrary-Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NOCLog/NOCLog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NOCLog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NOCLibrary-Tests/Pods-NOCLibrary-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F01C750038F2A76886034B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NOCLibrary-Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D966ED830FAB5DB56956227A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NOCLibraryFramework-Demo/Pods-NOCLibraryFramework-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NOCLog/NOCLog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NOCLog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NOCLibraryFramework-Demo/Pods-NOCLibraryFramework-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF34DE3934DF14A396404F11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NOCLibrary-Demo/Pods-NOCLibrary-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NOCLog/NOCLog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NOCLog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NOCLibrary-Demo/Pods-NOCLibrary-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8BE1B70207B711000E52F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BE1B7B207B711000E52F89 /* ViewController.m in Sources */,
+				E8BE1B86207B711200E52F89 /* main.m in Sources */,
+				E8BE1B78207B711000E52F89 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0DE0B2075E83F002C398D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0DE2B2075F926002C398D /* NOCLibrary.m in Sources */,
+				E8F0DE222075E840002C398D /* main.m in Sources */,
+				E8F0DE142075E83F002C398D /* AppDelegate.m in Sources */,
+				E8F0DE172075E83F002C398D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0DE2C2075FBAF002C398D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0DE3820760AF0002C398D /* NOCLibrary.m in Sources */,
+				E8A6477D207B256F007CEF17 /* NSBundle_Tests.m in Sources */,
+				E8F0DE332075FBAF002C398D /* NSDictionary_Tests.m in Sources */,
+				E8F0DE3D20762572002C398D /* NSString_Tests.m in Sources */,
+				E8BE1B50207B577A00E52F89 /* NSURL_Tests.m in Sources */,
+				E8BE1B4E207B48E400E52F89 /* UIColor_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8BE1B7C207B711000E52F89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8BE1B7D207B711000E52F89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8BE1B81207B711200E52F89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8BE1B82207B711200E52F89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F0DE182075E83F002C398D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0DE192075E83F002C398D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F0DE1D2075E840002C398D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0DE1E2075E840002C398D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8BE1B87207B711200E52F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF026F0D85F448E721D5614 /* Pods-NOCLibraryFramework-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77EYC4WM73;
+				INFOPLIST_FILE = "NOCLibraryFramework-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuliapp.NOCLibraryFramework-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8BE1B88207B711200E52F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41434EE02105025A81690920 /* Pods-NOCLibraryFramework-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77EYC4WM73;
+				INFOPLIST_FILE = "NOCLibraryFramework-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuliapp.NOCLibraryFramework-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8F0DE232075E840002C398D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8F0DE242075E840002C398D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8F0DE262075E840002C398D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FB252BF215DD076A545792 /* Pods-NOCLibrary-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77EYC4WM73;
+				INFOPLIST_FILE = "NOCLibrary-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuliapp.NOCLibrary-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8F0DE272075E840002C398D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76AF17E4AD2A1B67AF4F3392 /* Pods-NOCLibrary-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77EYC4WM73;
+				INFOPLIST_FILE = "NOCLibrary-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuliapp.NOCLibrary-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8F0DE362075FBAF002C398D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903DF4BC736220F9DECB0688 /* Pods-NOCLibrary-Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77EYC4WM73;
+				INFOPLIST_FILE = "NOCLibrary-Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuliapp.NOCLibrary-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8F0DE372075FBAF002C398D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF9FAE7E97EB7226EE3E62F /* Pods-NOCLibrary-Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77EYC4WM73;
+				INFOPLIST_FILE = "NOCLibrary-Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuliapp.NOCLibrary-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8BE1B89207B711200E52F89 /* Build configuration list for PBXNativeTarget "NOCLibraryFramework-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BE1B87207B711200E52F89 /* Debug */,
+				E8BE1B88207B711200E52F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F0DE0A2075E83F002C398D /* Build configuration list for PBXProject "NOCLibrary-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F0DE232075E840002C398D /* Debug */,
+				E8F0DE242075E840002C398D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F0DE252075E840002C398D /* Build configuration list for PBXNativeTarget "NOCLibrary-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F0DE262075E840002C398D /* Debug */,
+				E8F0DE272075E840002C398D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F0DE352075FBAF002C398D /* Build configuration list for PBXNativeTarget "NOCLibrary-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F0DE362075FBAF002C398D /* Debug */,
+				E8F0DE372075FBAF002C398D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8F0DE072075E83F002C398D /* Project object */;
+}

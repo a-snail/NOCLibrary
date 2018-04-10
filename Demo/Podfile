@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+project 'NOCLibrary-Demo.xcodeproj'
+
+target 'NOCLibrary-Demo' do
+  use_frameworks!
+  pod 'NOCLog', '~> 1.0.0'
+end
+
+target 'NOCLibraryFramework-Demo' do
+  use_frameworks!
+  pod 'NOCLog', '~> 1.0.0'
+end
+
+target 'NOCLibrary-Tests' do
+  use_frameworks!
+  pod 'NOCLog', '~> 1.0.0'
+end

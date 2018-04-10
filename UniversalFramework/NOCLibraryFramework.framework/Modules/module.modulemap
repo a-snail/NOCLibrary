@@ -1,0 +1,6 @@
+framework module NOCLibraryFramework {
+  umbrella header "NOCLibraryFramework.h"
+
+  export *
+  module * { export * }
+}
